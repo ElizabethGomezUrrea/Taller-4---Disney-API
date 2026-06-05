@@ -3,6 +3,7 @@ from pymongo import MongoClient
 
 
 API_URL = "https://api.disneyapi.dev/character"
+
 MONGO_URI = "mongodb://localhost:27017/"
 DB_NAME = "taller4_db"
 COLLECTION_NAME = "raw_data"
@@ -56,4 +57,5 @@ def main():
 
 
 if __name__ == "__main__":
+    
     main()
